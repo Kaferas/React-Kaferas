@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Heroku from "./components/Heroku"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Heroku/>
       </header>
     </div>
   );
