@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Heroku from "./components/Heroku"
+import './Cart.css';
+import Cart from "./components/Cart"
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <Heroku/>
+        <Cart/>
       </header>
     </div>
   );

@@ -1,14 +1,15 @@
 import styled from "styled-components"
-function Heroku()
-{
-    return (<Benchu>
+function Heroku() {
+    return (
+        <Benchu>
         <h2 >Good Morning {"Kaferas".toUpperCase()}</h2>
-        <h4>React Has Become a popular FrontEnd Framework So Go On </h4>
-    </Benchu>)
+        <h5>React best FrontEnd Framework </h5>
+    </Benchu>
+    )
 }
 
 export default Heroku
-const Benchu=styled.div`
+const Benchu = styled.div`
     background-color:rgba(34,232,165,.7);
     border-radius:4%;
     align-text:center;
